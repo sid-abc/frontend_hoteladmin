@@ -1,0 +1,103 @@
+.Form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(85, 107, 47);
+  color: rgb(8, 7, 7);
+  font: 1.3rem Inconsolata, monospace;
+  border-radius: 0.5rem;
+}
+
+div {
+  margin: 1rem 0;
+}
+
+.Date,
+.Time,
+.Rooms,
+.Email {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Bottom {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+#email {
+  width: 35vw;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  font-size: large;
+  font-weight: 400;
+  background-color: black;
+  color: #f5f4f6;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+#room,
+#roomNumber,
+#price {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  background-color: black;
+  color: #f5f4f6;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+#end,
+#start,
+#starttime,
+#endtime {
+  margin-right: 1rem;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  background-color: rgb(84, 79, 79);
+  color: #f5f4f6;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+#book {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: black;
+  color: #f5f4f6;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+#book:hover {
+  background-color: black;
+  color: rgb(0, 255, 17);
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 7px #f5f4f6;
+}
+
+input {
+  background-color: black;
+  color: #f5f4f6;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+#estimate {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: black;
+  color: #f5f4f6;
+  font: 1.3rem Inconsolata, monospace;
+}
